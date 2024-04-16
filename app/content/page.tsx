@@ -16,6 +16,7 @@ export default async function Page({ params }) {
             blogs.map((blog, index) => (
                 <div key={index} >
                     {blog._id} {blog.name}
+                    
 
                 </div>
             ))
